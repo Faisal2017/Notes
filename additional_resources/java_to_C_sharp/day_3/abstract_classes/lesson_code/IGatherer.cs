@@ -1,0 +1,3 @@
+interface IGatherer {
+  string GatherFood();
+}

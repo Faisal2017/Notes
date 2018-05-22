@@ -1,0 +1,111 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+/*----FLIPPING CARDS-----*/
+
+.container { 
+  margin: 10px;
+  margin-bottom: 30px;
+  width: 120px;
+  height: 170px;
+  position: relative;
+  perspective: 800px;
+  display: inline-block;
+}
+
+#card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+#card figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front, .card-back {
+  width: 100px;
+  height: 150px;
+  background-size: cover;
+  display: inline-block;
+  border: 1px solid grey;
+  box-shadow: 3px 3px 8px #939393;
+  border-radius: 15px;
+}
+
+.card-back {
+  background-image: url('http://www.jimknapp.com/Cards/Non-Bicycle_files/image002.jpg');
+  transform: rotateY( 180deg );
+}
+
+#card.flipped {
+  transform: rotateY( 180deg );
+}
+
+/*----------*/
+
+select, button {
+  margin: 10px;
+}
+
+#answer {
+  font-weight: bold;
+  color: blue;
+}
+
+.answer-green {
+  font-weight: bold;
+  color: #84c103;
+}
+.answer-red {
+  font-weight: bold;
+  color: #D50A1E;
+}
+
+#winAnswer {
+  font-size: 30px;
+}
+
+#guessBox {
+  padding: 10px;
+  border: 2px solid #939393;
+  border-radius: 15px;
+  width: 390px;
+  height: 110px;
+  margin: 10px auto;
+}
+
+.guessButton {
+  font-size: 18px;
+  background-color: white;
+  padding: 5px;
+  color: #D50A1E;
+  font-weight: bolder;
+  border: 4px solid #084D96;
+  border-radius: 15px;
+  box-shadow: 3px 3px 8px #939393;
+}
+
+.guessButton:focus {
+  outline: none;
+}
+
+.guessButton:hover {
+  color: white;
+  background-color: #D50A1E;
+}
+
+.main {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}

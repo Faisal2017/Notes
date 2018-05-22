@@ -1,0 +1,5 @@
+namespace Bear {
+  class Human {
+  
+  }
+}

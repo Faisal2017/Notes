@@ -1,0 +1,51 @@
+[
+   {
+      "name": "Rick",
+      "gender": "Male",
+      "hair": "Blonde",
+      "glasses": "False",
+      "image": "/images/staff/rick.jpg"
+   },
+   {
+      "name": "Keith",
+      "gender": "Male",
+      "hair": "Brown",
+      "glasses": "False" ,
+      "image": "/images/staff/keith.jpg" 
+   },
+   {
+      "name": "Beth",
+      "gender": "Female",
+      "hair": "Red",
+      "glasses": "False",
+      "image": "/images/staff/beth.jpg" 
+   },
+   {
+      "name": "Valerie",
+      "gender": "Female",
+      "hair": "Purple",
+      "glasses": "True",
+      "image": "/images/staff/val.jpg"   
+   },
+   {
+      "name": "Jay",
+      "gender": "Male",
+      "hair": "Black",
+      "glasses": "False",
+      "image": "/images/staff/jay.jpg"    
+   },
+   {
+      "name": "Sandy",
+      "gender": "Male",
+      "hair": "Black",
+      "glasses": "True",
+      "image": "/images/staff/sandy.jpg"    
+   },
+   {
+      "name": "Leigh-Ann",
+      "gender": "Female",
+      "hair": "Blonde",
+      "glasses": "True",
+      "image": "/images/staff/leigh-ann.jpg"    
+   }
+]

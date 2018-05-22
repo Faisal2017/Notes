@@ -1,0 +1,84 @@
+[
+   {
+      "name": "Frodo",
+      "gender": "Male",
+      "hair": "Brown",
+      "race": "Hobbit",
+      "weapon": "Sting",
+      "ringbearer": "True",
+      "image": "/images/lotr/frodo.png"
+   },
+   {
+      "name": "Sam",
+      "gender": "Male",
+      "hair": "Blonde",
+      "race": "Hobbit",
+      "weapon": "Barrow-blade",
+      "ringbearer": "True",
+      "image": "/images/lotr/sam.jpg"
+   },
+   {
+      "name": "Merry",
+      "gender": "Male",
+      "hair": "Blonde",
+      "race": "Hobbit",
+      "weapon": "Barrow-blade",
+      "ringbearer": "False",
+      "image": "/images/lotr/merry.jpg"
+   },
+   {
+      "name": "Pippin",
+      "gender": "Male",
+      "hair": "Brown",
+      "race": "Hobbit",
+      "weapon": "Barrow-blade",
+      "ringbearer": "False",
+      "image": "/images/lotr/pippin.jpg"
+   },
+   {
+      "name": "Gandalf",
+      "gender": "Male",
+      "hair": "Grey",
+      "race": "Wizard",
+      "weapon": "Staff",
+      "ringbearer": "True",
+      "image": "/images/lotr/gandalf.jpg"
+   },
+   {
+      "name": "Boromir",
+      "gender": "Male",
+      "hair": "Brown",
+      "race": "Human",
+      "weapon": "Sword",
+      "ringbearer": "True",
+      "image": "/images/lotr/boromir.jpg"
+   },
+   {
+      "name": "Aragorn",
+      "gender": "Male",
+      "hair": "Brown",
+      "race": "Human",
+      "weapon": "Sword",
+      "ringbearer": "False",
+      "image": "/images/lotr/aragorn.jpg"
+   },
+   {
+      "name": "Legolas",
+      "gender": "Male",
+      "hair": "Blonde",
+      "race": "Elf",
+      "weapon": "Bow",
+      "ringbearer": "False",
+      "image": "/images/lotr/legolas.jpg"
+   },
+   {
+      "name": "Gimli",
+      "gender": "Male",
+      "hair": "Red",
+      "race": "Dwarf",
+      "weapon": "Axe",
+      "ringbearer": "False",
+      "image": "/images/lotr/gimli.jpg"
+   }
+
+]
